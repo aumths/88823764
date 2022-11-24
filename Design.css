@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 350px;
+    margin: 2rem auto;
+    height: 640px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    border-radius: 30px;
+    overflow:  hidden;
+}
+.img {
+    overflow: hidden;
+}
+.img img {
+    width: 100%;
+}
+.content {
+    text-align: center;
+    border-bottom: 2px solid #e5e5e5;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
